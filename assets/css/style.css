@@ -1,0 +1,59 @@
+/* pagina index.html*/
+
+.flex{
+        max-width: 300px;
+        padding: 10px;
+        border: 2px solid black;
+    }
+
+    .item{
+        background-color: aqua;
+        margin:5px ;
+    }
+    
+   /* pagina flex-direction*/
+
+    .flex-container{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        max-width: 200px;
+    }
+
+    .flex-item{
+        background: blue;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        font-size: 25px;
+        color: white;
+        margin: 5px;
+        text-align: center;
+
+    }
+    .row{
+        flex-direction: row;
+    }
+
+    .row-reverse li{
+        background-color: coral;
+    }
+    .row-reverse{
+        flex-direction:row-reverse;
+    }
+    .column{
+        float: left;
+        flex-direction: column;
+    }
+    .column li{
+        background-color: yellowgreen;
+    }
+    .column-reverse{
+       flex-direction: column-reverse ;
+       float: right;
+    }
+    .column-reverse li{
+        background-color: violet;
+    }
+
