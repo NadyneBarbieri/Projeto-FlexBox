@@ -2,63 +2,62 @@
 
 .tamanhoDaCaixa {
     max-width: 350px;
-    
-    padding: 10px;
-    border: 1px solid black;
-
+    height: 250px;
+    border: 2px solid black;
 }
 
-.item {
+.margem {
     margin: 5px;
 }
 
-/* pagina flex-direction*/
-
-.list {
-    margin: 0;
-    padding: 0;
+.eixo-yEsquerda{
     display: flex;
-    list-style: none;
-    max-width: 222px;
-    
+    padding: 0;
+    flex-flow: row-reverse wrap;
+}
+.eixo-yDireita{
+    padding:0;
+    display: flex;
+    flex-direction: row;
+}
+.eixo-yEsquerdaReverso{
+    flex-flow: row-reverse wrap-reverse;
 }
 
 .comprimento {
     width: 50px;
     font-size: 25px;
     text-align: center;
-
+    list-style: none;
+    color: green;
+    margin: 2px;
 }
 
-.proporcao{
+.quebraDeLinha{
 flex-wrap: wrap;
 }
 
-.proporcaoReversa{
+.quebraDeLinhaReversa{
     flex-wrap: wrap-reverse;
 }
 
-.row {
+.direcaoDalinha {
     flex-direction: row;
 
 }
-.row-reverse {
+.direcaoDaLinha-reverse {
     flex-direction: row-reverse;
 
 }
 
 
 
-.column {
+.coluna {
     float: left;
     flex-direction: column;
 }
 
-.verde li {
-    accent-color: yellowgreen;
-}
-
-.column-reverse {
+.coluna-reverse {
     flex-direction: column-reverse;
     float: right;
 }
@@ -68,7 +67,7 @@ flex-wrap: wrap;
 }
 
 
-/* pagina flex-wrap*/
+/* cores*/
 .laranja li {
     background-color: orange;
 }
