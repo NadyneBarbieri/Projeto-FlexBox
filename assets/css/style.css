@@ -1,59 +1,82 @@
 /* pagina index.html*/
 
-.flex{
-        max-width: 300px;
-        padding: 10px;
-        border: 2px solid black;
-    }
-
-    .item{
-        background-color: aqua;
-        margin:5px ;
-    }
+.tamanhoDaCaixa {
+    max-width: 350px;
     
-   /* pagina flex-direction*/
+    padding: 10px;
+    border: 1px solid black;
 
-    .flex-container{
-        margin: 0;
-        padding: 0;
-        display: flex;
-        list-style: none;
-        max-width: 200px;
-    }
+}
 
-    .flex-item{
-        background: blue;
-        height: 50px;
-        width: 50px;
-        line-height: 50px;
-        font-size: 25px;
-        color: white;
-        margin: 5px;
-        text-align: center;
+.item {
+    margin: 5px;
+}
 
-    }
-    .row{
-        flex-direction: row;
-    }
+/* pagina flex-direction*/
 
-    .row-reverse li{
-        background-color: coral;
-    }
-    .row-reverse{
-        flex-direction:row-reverse;
-    }
-    .column{
-        float: left;
-        flex-direction: column;
-    }
-    .column li{
-        background-color: yellowgreen;
-    }
-    .column-reverse{
-       flex-direction: column-reverse ;
-       float: right;
-    }
-    .column-reverse li{
-        background-color: violet;
-    }
+.list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    max-width: 222px;
+    
+}
 
+.comprimento {
+    width: 50px;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.proporcao{
+flex-wrap: wrap;
+}
+
+.proporcaoReversa{
+    flex-wrap: wrap-reverse;
+}
+
+.row {
+    flex-direction: row;
+
+}
+.row-reverse {
+    flex-direction: row-reverse;
+
+}
+
+
+
+.column {
+    float: left;
+    flex-direction: column;
+}
+
+.verde li {
+    accent-color: yellowgreen;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+    float: right;
+}
+
+.qualquer li {
+    background-color: violet;
+}
+
+
+/* pagina flex-wrap*/
+.laranja li {
+    background-color: orange;
+}
+
+.vermelho li {
+    background-color: red;
+}
+
+.verde li {
+    background-color: green;
+}
