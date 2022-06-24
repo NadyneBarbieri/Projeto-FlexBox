@@ -9,6 +9,14 @@
 .margem {
     margin: 5px;
 }
+.justificativaFinal{
+    justify-content: flex-end;
+}
+
+.justificativaCentral{
+    justify-content: center;
+}
+
 
 .eixo-yEsquerda{
     display: flex;
@@ -32,6 +40,8 @@
     color: green;
     margin: 2px;
 }
+
+
 
 .quebraDeLinha{
 flex-wrap: wrap;
