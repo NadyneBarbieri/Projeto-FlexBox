@@ -9,73 +9,82 @@
 .margem {
     margin: 5px;
 }
-.justificativaFinal{
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
     justify-content: flex-end;
 }
 
-.justificativaCentral{
+.center{
     justify-content: center;
 }
 
-
-.eixo-yEsquerda{
+.eixo-yEsquerda {
     display: flex;
     padding: 0;
     flex-flow: row-reverse wrap;
 }
-.eixo-yDireita{
-    padding:0;
+
+.eixo-yDireita {
+    padding: 0;
     display: flex;
     flex-direction: row;
 }
-.eixo-yEsquerdaReverso{
+
+.eixo-yEsquerdaReverso {
     flex-flow: row-reverse wrap-reverse;
 }
 
-.comprimento {
-    width: 50px;
-    font-size: 25px;
-    text-align: center;
+.lista {
     list-style: none;
-    color: green;
-    margin: 2px;
 }
 
 
-
-.quebraDeLinha{
-flex-wrap: wrap;
+.item{
+    background-color: blueviolet;
+    margin: 5px;
+    text-align: center;
+    
+}
+.space-between{
+    justify-content: space-between;
 }
 
-.quebraDeLinhaReversa{
+.space-around{
+    justify-content: space-around;
+}
+
+.quebraDeLinha {
+    flex-wrap: wrap;
+}
+
+.quebraDeLinhaReversa {
     flex-wrap: wrap-reverse;
 }
 
 .direcaoDalinha {
     flex-direction: row;
-
 }
+
 .direcaoDaLinha-reverse {
     flex-direction: row-reverse;
-
 }
 
-
-
-.coluna {
-    float: left;
-    flex-direction: column;
-}
 
 .coluna-reverse {
     flex-direction: column-reverse;
     float: right;
 }
+.coluna{
+    flex-direction: column;
+    min-height: 200px;
+}
 
 .qualquer li {
     background-color: violet;
 }
-
 
 /* cores*/
 .laranja li {
@@ -89,3 +98,21 @@ flex-wrap: wrap;
 .verde li {
     background-color: green;
 }
+
+.container{
+    max-width: 400px;
+    border: 1px solid black;
+    margin: 0;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.item{
+    background-color: blueviolet;
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+
+
+

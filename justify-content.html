@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,102 @@
     <title>Fundamentos - Justify-content</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <h1>Justificativa</h1>
-    <div class="tamanhoDaCaixa margem ">
-        <ul class="eixo-yDireita qualquer justificativaFinal">
-            <li class="comprimento">1</li>
-            <li class="comprimento">2</li>
-            <li class="comprimento">3</li>
-            <li class="comprimento">4</li>
-        </ul>
+    <h1>row</h1>
+    <p>flex-start</p>
+    <div class="container flex-start lista">
+        <li class="item">1</li>
+        <li class="item">item 2</li>
+        <li class="item">outro item</li>
+        <li class="item">4</li>
+        <li class="item">5</li>
     </div>
-    <h1>Justificativa</h1>
-    <div class="tamanhoDaCaixa margem ">
-        <ul class="eixo-yDireita qualquer justificativaCentral">
-            <li class="comprimento">1</li>
-            <li class="comprimento">2</li>
-            <li class="comprimento">3</li>
-            <li class="comprimento">4</li>
-        </ul>
+
+    <p>flex-end</p>
+    <section class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">outro item</div>
+    </section>
+
+    <p>center</p>
+    <div class="container center lista">
+        <li class="item">1</li>
+        <li class="item">item 2</li>
+        <li class="item">outro item</li>
+        <li class="item">4</li>
+        <li class="item">5</li>
     </div>
+
+    <p>space-between</p>
+    <div class="container space-between lista">
+        <li class="item">1</li>
+        <li class="item">item 2</li>
+        <li class="item">outro item</li>
+        <li class="item">4</li>
+        <li class="item">5</li>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-around lista">
+        <li class="item">1</li>
+            <li class="item">item 2</li>
+            <li class="item">outro item</li>
+            <li class="item">4</li>
+            <li class="item">5</li>
+    </div>
+
+    <h1>column</h1>
+
+    <p>flex-start (column)</p>
+    <section class="container flex-start coluna lista">
+        <li class="item">1</li>
+        <li class="item">item 2</li>
+        <li class="item">outro item</li>
+        <li class="item">4</li>
+        <li class="item">5</li>
+    </section>
+
+    <p>flex-end (column)</p>
+    <div class="container flex-end coluna lista">
+        <li class="item">1</li>
+        <li class="item">item 2</li>
+        <li class="item">outro item</li>
+        <li class="item">4</li>
+        <li class="item">5</li>
+    </div>
+
+    <p>center</p>
+    <div class="container center coluna lista">
+        <li class="item">1</li>
+        <li class="item">item 2</li>
+        <li class="item">outro item</li>
+        <li class="item">4</li>
+        <li class="item">5</li>
+    </div>
+    <p>space-between</p>
+    <div class="container space-between coluna lista">
+        <li class="item">1</li>
+        <li class="item">item 2</li>
+        <li class="item">outro item</li>
+        <li class="item">4</li>
+        <li class="item">5</li>
+    </div>
+        <p>space-around</p>
+        <div class="container space-around coluna lista">
+            <li class="item">1</li>
+            <li class="item">item 2</li>
+            <li class="item">outro item</li>
+            <li class="item">4</li>
+            <li class="item">5</li>
+        </div>
+
 </body>
+
+</html>
+
+
+</body>
+
 </html>
