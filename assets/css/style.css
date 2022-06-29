@@ -1,10 +1,5 @@
 /* pagina index.html*/
 
-.tamanhoDaCaixa {
-    max-width: 350px;
-    height: 250px;
-    border: 2px solid black;
-}
 
 .margem {
     margin: 5px;
@@ -100,11 +95,11 @@
 }
 
 .container{
-    max-width: 400px;
+    max-width: 200px;
     border: 1px solid black;
     margin: 0;
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .item{
@@ -113,6 +108,24 @@
     text-align: center;
     color: white;
 }
+/* flex-grow*/
+
+.fg-0{
+    flex-grow: 0;
+}
+
+.fg-1{
+    flex-grow: 1;
+}
+
+.fg-2{
+    flex-grow: 2;
+}
+
+.fg-3{
+    flex-grow: 3;
+}
+
 
 
 
