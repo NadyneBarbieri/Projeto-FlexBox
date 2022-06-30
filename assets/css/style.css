@@ -125,6 +125,10 @@
 .fg-3{
     flex-grow: 3;
 }
+.w100{
+    flex-basis: 50px;
+}
+
 
 
 
